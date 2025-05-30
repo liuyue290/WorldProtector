@@ -1,0 +1,16 @@
+name: WorldProtector
+version: 1.0
+main: com.example.worldprotector.WorldProtector
+api-version: 1.21
+description: 保护特定世界不被破坏或建造
+authors: [peter]
+
+permissions:
+  worldprotector.bypass:
+    description: 允许绕过世界保护
+    default: op
+
+commands:
+  worldprotector:
+    description: 主命令
+    usage: /<command>
